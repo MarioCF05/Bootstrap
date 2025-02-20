@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica Bootstrap Mario Motos</title>
+  <link rel="icon" href="IMAGENES/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link custom-nav-link" href="Pagina1.html">Foro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="Pagina2.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="Pagina3.html">Eventos y Encuentros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="Pagina4.html">Inscripción</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="text-animation text-center">¡Bienvenido a MarioMotos – Tu Comunidad Motera!</h2>
+    <p class="text-center">¡Nos alegra tenerte aquí! En [Nombre de la Página] somos una comunidad apasionada por el mundo de las motos. Ya seas un motociclista experimentado o un aficionado que está empezando a descubrir este emocionante mundo, aquí encontrarás un espacio para compartir, aprender y disfrutar junto a otros amantes de las dos ruedas.
+      <br>
+      <br>
+    Aquí podrás participar en debates sobre tus modelos favoritos, encontrar consejos sobre mantenimiento y personalización, explorar rutas y eventos especiales, y conectar con personas que comparten tu misma pasión por las motos. ¡Este es tu lugar para sentirte parte de una gran familia motera!
+      <br>
+      <br>
+    No olvides visitar nuestro foro, compartir fotos de tu moto en nuestra galería y enterarte de los últimos eventos de la comunidad. ¡Únete a nosotros y comienza a compartir tu amor por las motos con otros apasionados como tú!
+      </p>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
+    </ol>
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active">
+        <h1 class="carousel-text">SPORT</h1>
+        <img src="IMAGENES/SUPERSPORT.png" class="d-block w-100 rounded shadow" alt="Imagen 1">
+      </div>
+
+      <div class="carousel-item">
+        <h1 class="carousel-text">NAKED</h1>
+        <img src="IMAGENES/HYPERNAKED.png" class="d-block w-100 rounded shadow" alt="Imagen 2">
+      </div>
+
+
+      <div class="carousel-item">
+        <h1 class="carousel-text">ADVENTURE</h1>
+        <img src="IMAGENES/ADVENTURE.png" class="d-block w-100 rounded shadow" alt="Imagen 3">
+      </div>
+
+      <div class="carousel-item">
+        <h1 class="carousel-text">OFF ROAD</h1>
+        <img src="IMAGENES/OFFROAD.png" class="d-block w-100 rounded shadow" alt="Imagen 4">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+
+  <footer class="text-center mt-5">
+    <p>&copy; 2025 Mario Cordero Fernandez. Todos los derechos reservados.</p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
